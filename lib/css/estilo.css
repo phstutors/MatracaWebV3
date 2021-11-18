@@ -1,0 +1,170 @@
+textarea#some-textarea{
+    /*
+    border: double;
+    overflow-y: scroll;
+    height: 400px;
+    width: 800px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    */
+}
+
+textarea.even{
+    padding: 20px;
+    margin-left: 40px;
+    margin-bottom: 90px;
+}
+
+main{
+    text-align: center;
+    font-size: 2em;
+}
+
+#btns{
+    margin-top: -200px;
+    margin-left: -750px;
+}
+
+button{
+    width: 300px;
+    height: 100px;
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    font: inherit;
+	cursor: pointer;
+}
+
+#btn-salvar{
+    display: inline-block;
+    margin-left: 260px;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: black;
+    /*
+    background-color: #EE3F04;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #B22222;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    */
+}
+#btn-abrir{
+    display: inline-block;
+    margin-left: 260px;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: black;
+    /*
+    background-color: #06C8EF;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #000080;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    */
+}
+
+#btn-novo{
+    display: inline-block;
+    margin-left: 260px;
+    margin: 1.5em;
+    border: 0;
+    padding: 3.8em 1em;
+    text-decoration: none;
+    color: black;
+    background-color: #11FA5F;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #006400;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#btn-teste{
+    display: inline-block;
+    margin-left: 260px;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: black;
+    background-color: #FF00FF;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #8B008B;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#btn-lertexto{
+    display: inline-block;
+    margin-left: 260px;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: black;
+    /*
+    background-color: #E3F308;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #FFD700;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    */
+}
+
+body{
+    background-color: rgba(19, 18, 18, 0.479);
+}
+
+.grow {
+    box-shadow: 0 0 0 0 #930,
+    inset 4px 4px 4px #930;
+    transform: translate(6px, 6px);
+}
+
+.grow:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+h1{
+    color: red;
+    text-align: center;
+    border-bottom: 2px white solid;
+}
+
+textarea#txt{
+    border: double;
+    overflow-y: scroll;
+    height: 400px;
+    width: 800px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*
+textarea#area{
+    height: 400px;
+    width: 800px;
+}
+*/
+.btn.jumbo {
+        font-size: 20px;
+        font-weight: normal;
+        padding: 14px 24px;
+        margin-right: 10px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+}
+
+.img-abrir{
+    background-image: url('lib/img/new-file.png');
+}
