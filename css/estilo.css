@@ -1,54 +1,87 @@
 .corpo{
-    background-color: rgba(8, 8, 8, 0.856);
+    background-color: #dee0df;
+    color:#fff5ff;
 }
-
-.titulo1{
+*{
+    margin:0;
+    padding:0;
+}
+.menu h1{
     text-align: center;
-    color: yellow;
+    color: #fff5ff;
     font-weight: 600;
-    margin-top: 70px;
+}
+.divisao{
+    background-color: #b7aaec;
+    width: 100vw;
+    margin-top: 1px;
+    height: 5px;
+}
+.delete-note{
+    font-size: 30px;
+    color: #8355eb;
+    background-color: #fff5ff;
+    padding: 6px;
+    border-radius: 20px;
 }
 
-/*INÍCIO Estilo: editor de texto*/
-div.matraca{
-    margin-top: 100px;
+.fa-play{
+    font-size: 35px;
+    color: #8355eb;
+    background-color: #fff5ff;
+    padding: 2px;
+    border-radius: 20px;
 }
 
-#summernote{
-    width: 100%;
+.note{
+    background-color: #babadc;
+    padding: 5px;
+    margin: 3%;
+    border-radius: 12px;
+    list-style: none;
+    text-overflow:ellipsis;
+    overflow:scroll;
 }
-
-.note-toolbar.card-header{
+.notas-voice{
+    background-color: #fffffd;
+    width: 35vw;
+    border: solid #8355eb 6px;
+    border-radius: 15px;
+    min-height: 20vh;
+    color: black;
+    text-align: justify;
+    text-overflow:ellipsis;
+}
+.notas-voice h3{
+    color: black;
     text-align: center;
+    font-size: 25px;
+    font-weight: 400;
 }
-
-.note-editor.note-frame.card{
-    /*margin-left: 145px;*/
-    /*width: 100%;*/
-    max-width: 800px;
-}
-
-div.note-editable.card-block{
-    height: 300px;
-}
-/*FIM Estilo: editor de texto*/
-
-#seletor-voz, #summernote{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 10px;
-}
-.texto{
-    position: relative;
-    top: -500px;
-    width: 300px;
-    height: 200px;
-}
-
 #seletor-voz{
-    color: white;
+    margin-top: -50px;
+    margin-left: 23%;
+    width: 724px;
+    overflow:auto;
+    scroll-behavior: unset;
+}
+#summernote{
+    margin:0;
+    width: 723px;
+    margin-left: 15%;
+    border-radius: 30px;
+    height: 40px;
+
+}
+.menu{
+    background-color: #8355eb;
+    padding-bottom: 15px;
+    margin: 0!important;
+}
+#btn-falar{
+    border-radius: 50%;
+    width: 155px;
+    height: 135px;
 }
 
 /*INÍCIO Estilo dos botões: limpar, upload, download e falar*/
@@ -59,97 +92,14 @@ div.botoes{
 
 input.btn{
     width: 150px;
-    height: 150px;
+    height: 135px;
     margin: 1.5em;
-    background-color: white;
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+    background-color: #8355eb;
     border-radius: 50%;
-}
-.container2 {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 100px 50px;
-    text-align: center;
-    position:relative;
-    top: 120px;
-}
-hr{
-    position: relative;
-    top: 35px;
-}
 
-.container2 h1 {
-    position: relative;
-    top: -100px;
-    color: yellow;
-    font-weight: 600;
 }
-
-.page-description {
-    font-size: 1.1rem;
-    margin: 0 auto;
-}
-
-.tz-link {
-    font-size: 1em;
-    color: #1da7da;
-    text-decoration: none;
-}
-
-.no-browser-support {
-    display: none;
-    font-size: 1.2rem;
-    color: #e64427;
-    margin-top: 35px;
-}
-.container2 ul {
-    list-style: none;
-    padding: 0;
-}
-
-.container2 p {
-    color: #fff;
-}
-.container2 h3{
-    color: yellow;
-    font-weight: 600;
-}
-
-
-.container2 button:focus {
-    outline: 0;
-}
-.app {
-    margin: 40px auto;
-}
-
-#note-textarea {
-    margin: 20px 0;
-}
-
-#recording-instructions {
-    margin: 15px auto 60px;
-}
-
-#notes {
-    padding-top: 20px;
-}
-
-.note .header {
-    font-size: 0.9em;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.note .delete-note,
-.note .listen-note {
-    text-decoration: none;
-    margin-left: 15px;
-}
-
-.note .content {
-    margin-bottom: 40px;
-}
-
 @media (max-width: 768px) {
     .container2 {
         padding: 50px 25px;

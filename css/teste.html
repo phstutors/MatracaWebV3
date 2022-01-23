@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+     #cor{
+            display:none;
+        }
+        #cores{
+            display:none;
+        }
+</style>
+
+<input onclick="fundo()" type="color" id="cores" name="cores">
+<label for="cores"> <i class="material-icons">format_color_fill</i></label>
+<textarea id="mudar">
+</textarea>
+
+<input onclick="c()" type="color" id="cor" name="cor">
+<label for="cor"> <i class="material-icons">format_color_text</i></label>
+<script>
+    function c(){
+
+        var cor = document.getElementById('cor').value;
+        if(cor){
+            document.getElementById('mudar').style.color= cor;
+        }}
+        function fundo(){
+
+var cores = document.getElementById('cores').value;
+if(cores){
+    document.getElementById('mudar').style.background= cores;
+}
+
+      
+    }
+    
+</script>

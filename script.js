@@ -159,11 +159,10 @@ function renderNotes(notes) {
     notes.forEach(function(note) {
       html+= `<li class="note">
         <p class="header">
-          <span class="date">${note.date}</span>
-          <a href="#" class="listen-note" title="Listen to Note">Ouça a nota</a>
-          <a href="#" class="delete-note" title="Delete">Delete</a>
+          <span class="content">${note.content}</span>
+          <i class="fa-solid fa-play listen-note"></i>
+          <i class="fa-solid fa-trash delete-note"></i>
         </p>
-        <p class="content">${note.content}</p>
       </li>`;    
     });
   }
